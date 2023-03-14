@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id=";jxJu#yC]?!dfR-PsM9t">Numero</variable></variables><block type="device_button_event" id="zWel58v8GQ6h}G_nO[HW" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="controls_if" id="^e7.Y%kRLW8C3plb^czz"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="-Pl[8hH8Qcr-IH__/f4T"><field name="OP">LT</field><value name="A"><shadow type="math_number" id="=_{(EQ7ckh~ymd()*DX6"><field name="NUM">125</field></shadow></value><value name="B"><shadow type="math_number"><field name="NUM">125</field></shadow><block type="device_get_light_level" id="w88h)a12=FFd-JA(bbgQ"></block></value></block></value><statement name="DO0"><block type="device_set_digital_pin" id="Ys[gT(c.O-M)W@+$rode"><field name="name">DigitalPin.P0</field><value name="value"><shadow type="math_number_minmax" id="#98^HDX.CM.O~pe}c9SZ"><mutation min="0" max="1" label="Value" precision="0"></mutation><field name="SLIDER">1</field></shadow></value></block></statement><statement name="ELSE"><block type="device_show_leds" id="+hnii{]*.Wkjqr{o[E?F"><field name="LEDS">`
+        # . . . . 
+        # . . . . 
+        # . . . . 
+        # . . . . 
+        # . . . .
+        `</field></block></statement></block></statement></block></xml>
